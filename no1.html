@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <!--basic boilerplate html-->
+        <meta charset="UTF-8">
+        <meta name= "viewport" content = "width=device-width, inital-scale = 1.0">
+        <meta http-equiv="X-UA=Compatible" content="ie=edge">
+        <title>Test</title>
+        <!--references the css file-->
+        <link rel="stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <div>
+            <!--grabs audio from files-->
+            <audio id="audio" src="images/sticker.mp3" autostart="false"></audio>
+            <!--button for aesthetic purposes-->
+             <button onclick="clickMe();showImage();" id = "btnID"> Click me! </button>
+        </div>
+        
+        <!--image that pops up after button-->
+        <img id="image" src=""/>
+
+        <!--script for toggling audio and images to show when button is pressed-->
+        <script>
+            function clickMe()
+            {
+                var sound = document.getElementById('audio');
+                sound.play();
+                
+            }
+
+            function showImage()
+            {
+                let image = document.getElementById("image");
+                image.src = "images/cat.jpg";
+                document.getElementById("btnID");
+
+            }
+        </script>
+    </body>
+</html>

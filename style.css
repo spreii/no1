@@ -1,0 +1,24 @@
+div {
+    height: 500px;
+    padding: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 50px;
+    background-color: pink;
+    color: aliceblue;
+    font-family: monospace;
+    border-color: pink;
+    border-radius: 10px;
+}
+
+img
+{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
